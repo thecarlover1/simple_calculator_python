@@ -1,0 +1,28 @@
+print ("Welcome to the calculator, this calculator has 4 functions, for all operations.  Press 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division and 0 to quit. Works with decimals as well. Thanks for using this repl!")
+answer = float(input("Enter number for desired function: "))
+if answer == 0:
+  quit()
+
+if answer == 1:
+  addOne = float(input("Enter first number: "))
+  addTwo = float(input("Enter second number: "))
+  additonStatement =  (addOne) + (addTwo)
+  print(additonStatement)
+
+elif answer == 2:
+  subOne = float(input("Enter first number: "))
+  subTwo = float(input("Enter second number: "))
+  subtractStatement =  (subOne) - (subTwo)
+  print(subtractStatement)
+
+elif answer == 3:
+  multiOne = float(input("Enter first number: "))
+  multiTwo = float(input("Enter second number: "))
+  multiplicationStatement =  (multiOne) * (multiTwo)
+  print(multiplicationStatement)
+
+elif answer == 4:
+  divOne = float(input("Enter first number: "))
+  divTwo = float(input("Enter second number: "))
+  divisionStatement =  (divOne) / (divTwo)
+  print(divisionStatement)
